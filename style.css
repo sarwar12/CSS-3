@@ -1,0 +1,95 @@
+*{
+			margin: 0;
+			padding: 0;
+}
+header{
+	padding: 30px 0;
+	background: lightgrey;
+	color: teal;
+	text-align: center;
+	}
+/*Border & Outline Use*/
+header a {
+	text-decoration: navajowhite;
+	color: black;
+	background: pink;
+	padding: 9px 13px;
+	margin: 10px 150px;
+	display: inline-block;
+	border-radius: 28px;
+	border: red solid 5px;
+	outline: blue solid 3px;
+}
+/*Border & Outline Use*/
+/*background Property use*/
+.background {
+	background: yellow;
+	padding: 40px 5px;
+}
+.bg1 {
+	background: url(img/ballon.png) no-repeat;
+	background-size: 100% 100%;
+	height: 700px;
+}
+.bg1 p {
+	padding: 20px 15px;
+	color: white;
+}
+.bg2 {
+	background: url(img/drive.png) no-repeat;
+	padding: 50px 0;
+	background-size: 36px;
+	background-position: center center;
+}
+.bg2 p{}
+/*background Property use*/
+#heading{
+	font-size: 50px;
+	font-family: "agency fb";
+}
+section{
+	margin: 10px 0;
+	text-align: justify;
+}
+.para1 {
+	text-align: justify;
+	text-transform: uppercase;
+	background: ghostwhite;
+	padding: 26px;
+}
+.para2 {
+	background: greenyellow;
+	padding: 25px 30px 25px 30px;
+	text-decoration: underline;
+	text-transform: lowercase;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+.space {
+	background: violet;
+	padding: 10px 10px;
+	display: block;
+	word-spacing: 15px;
+	letter-spacing: 5px;
+}
+#para {
+	font-weight: bold;
+	color: red;
+	margin: 23px 0;
+	display: block;
+	padding: 10px 10px;
+	text-indent: 50px;
+}
+.pre {
+	white-space: pre;
+	color: gray;
+	text-shadow: 4px 5px 3px grey;
+}
+footer{
+	padding: 20px 0;
+	color: #ffffff;
+	background: teal;
+	}
+footer p{
+	text-align: center;
+		}
