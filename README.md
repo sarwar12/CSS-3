@@ -29,6 +29,7 @@
 	ShortHand Property:::
 		Background: color |image|repeat|attachment|position;
 		Background: red url(imie.jpg) no-repeat fixed cover;
+		
 #### Border Property::
 		Border-style: solid/ double/ groove/ dotted/ dashed/ inset/ outset/ ridge/ hidden; (All side)
 		Border-width: 3px;
@@ -46,6 +47,7 @@
 	ShortHand Property:::
 		Border:color| style |width;
 		Border:red solid 5px;
+		
  #### Outline Property:: 
 		Outline-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;
 		Outline-color: red/#000/ RGB;
@@ -78,7 +80,8 @@
     	    ( EX: input[type=text]{} )     input[type=text] { color:red; }
 ### Comments:
 	        /* content */    or     /* */
-		
+
+***
 
 ## G SARWAR
 ### Web Instructor
